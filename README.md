@@ -2,17 +2,17 @@ H5 FileReader选本地图片转base64（兼容IE8）
 
 <h2>使用例子：</h2>
 
-		图片容器 显示选中的图片
+<h2>图片容器 显示选中的图片</h2>
  		<div id="container">
 			<img src="" />
  		</div>
  
  
- 		按钮点击选图
+ <h2>按钮点击选图</h2>
  		<div id="uploadImgBtn" class="layerBtn" style="width: 100%;margin-left:0;margin-top: 3px; ">click</div>
 		 <input onchange="imgChange(this)" type="file" id="getImgfile" accept="image/jpg,image/jpeg,image/gif,image/png" style="display:none"/>
 		//不使用image/* 避免Chrome 下打开窗口缓慢		
-		JS
+<h2>JS</h2>
 		var imgChange = function(file) {
 			if (file.files && file.files[0]) {
 				var reader = new FileReader();
@@ -35,6 +35,6 @@ H5 FileReader选本地图片转base64（兼容IE8）
 			}
 		};
 
-		实现过程，点击click模拟按钮进而点击input弹出文件选择框，选择完成后调用imgChange函数
+<h2>实现过程，点击click模拟按钮进而点击input弹出文件选择框，选择完成后调用imgChange函数</h2>
 		
 <img src="img.png">

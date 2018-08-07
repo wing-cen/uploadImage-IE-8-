@@ -1,6 +1,6 @@
 H5 FileReader选本地图片转base64（兼容IE8）
 
-		使用例子：
+<h2>使用例子：</h2>
 
 		图片容器 显示选中的图片
  		<div id="container">
@@ -36,3 +36,5 @@ H5 FileReader选本地图片转base64（兼容IE8）
 		};
 
 		实现过程，点击click模拟按钮进而点击input弹出文件选择框，选择完成后调用imgChange函数
+		
+<img src="img.png">
